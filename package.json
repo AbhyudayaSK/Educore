@@ -1,0 +1,17 @@
+{
+  "name": "educore-lms",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "frontend:dev": "npm run dev --workspace=frontend",
+    "backend:dev": "npm run dev --workspace=backend",
+    "build": "npm run build --workspace=frontend"
+  },
+  "devDependencies": {
+    "next": "14.2.5"
+  }
+}
